@@ -1,4 +1,4 @@
-baseURL = 'https://www.nuklus.com//'
+baseURL = 'https://www.nuklus.com'
 languageCode = 'en-us'
 title = 'Nuklus'
 theme = 'PaperMod'
