@@ -2,3 +2,7 @@ baseURL = 'https://www.nuklus.com'
 languageCode = 'en-us'
 title = 'Nuklus'
 theme = 'PaperMod'
+
+# Set enableKofi to true to enable the Ko-fi support button. Add your Ko-fi ID to link to your account.
+enableKofi = true
+kofi = "ko-fi.com/rsimba"
