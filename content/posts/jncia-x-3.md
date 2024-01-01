@@ -8,7 +8,7 @@ author = 'Ricardo Simba'
 
 I always believed that adding a multivendor network certification to your skill set enhances your knowledge, increases your career flexibility, and makes you a valuable asset in the dynamic field of networking.
 
-With the above in mind, last year I decided to resume my studies for the JNCIE-SP exam by using [Juniper's Open Learning Program](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=JUNIPER-OPEN-LEARNING#static).
+With the above in mind, last year I decided to resume my JNCIE-SP studies exam by using the [Juniper's Open Learning Program](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=JUNIPER-OPEN-LEARNING#static) as my training resource.
 
 # The Juniper Open Learning Program
 Juniper has made it easy to prepare for certifications through this program by offering free certification courses and discounted exam vouchers. This applies to exams from the Associate level up to the Expert level. The program operates in three steps:
