@@ -1,7 +1,8 @@
 +++
-title = 'Containers With Docker'
+title = ' The Dockerfile'
 date = 2023-11-28T11:27:25+02:00
 draft = true
+author = 'Ricardo Simba'
 +++
 
 Lately, I've been leveraging a lot containers for production, tests, and learning, and I decided to write about it.
