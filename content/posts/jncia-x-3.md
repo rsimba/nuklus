@@ -4,7 +4,7 @@ date = 2024-01-01T09:51:05+02:00
 author = 'Ricardo Simba'
 +++
 
-![3xJNCIA](Users/rsimba/gitrepos/nuklus/content/images/jncia.jpeg)
+![jncia](Users/rsimba/gitrepos/nuklus/content/images/jncia.jpeg)
 
 I always believed that adding a multivendor network certification to your skill set enhances your knowledge, increases your career flexibility, and makes you a valuable asset in the dynamic field of networking.
 
