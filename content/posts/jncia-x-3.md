@@ -4,8 +4,6 @@ date = 2024-01-01T09:51:05+02:00
 author = 'Ricardo Simba'
 +++
 
-![jncia](Users/rsimba/gitrepos/nuklus/content/images/jncia.jpeg)
-
 I always believed that adding a multivendor network certification to your skill set enhances your knowledge, increases your career flexibility, and makes you a valuable asset in the dynamic field of networking.
 
 With the above in mind, last year I decided to resume my JNCIE-SP studies exam by using the [Juniper's Open Learning Program](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=JUNIPER-OPEN-LEARNING#static) as my training resource.
