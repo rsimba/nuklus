@@ -1,7 +1,8 @@
 +++
 title = 'JNCIS-Ent: Layer 2 Switching Primer'
 date = 2024-02-06T15:56:29+02:00
-categories: jncis-ent, switching
+author: 'Ricardo Simba'
+categories: 'jncis-ent'
 +++
 
 The purpose of computer networking is to facilitate communication and resource sharing between computers and other devices within the same or separate physical locations. This is achieved by connecting computers, servers, printers, and other devices both physically and logically.
