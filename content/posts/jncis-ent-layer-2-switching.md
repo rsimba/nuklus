@@ -106,3 +106,6 @@ When creating a loop-free logical topology, STP follows the same four-step decis
 1. Lowest Root Bridge ID (BID)
 2. Lowest Path Cost to Root Bridge
 3. Lowest Port ID
+
+# Conclusion
+In summary, computer networking relies on both physical connections, like cables and wireless, and logical connections governed by protocols and rules. Ethernet plays a key role in establishing connections between devices, with MAC addresses identifying each device uniquely. LANs can be shared or switched, with switched LANs offering more efficient communication. Switches manage network traffic, directing frames to their destinations using various mechanisms. VLANs segment broadcast domains, while trunking enables multiple VLANs over a single link. The Spanning Tree Protocol ensures loop-free networks for stable communication. Understanding these concepts is essential for building and managing effective networks.
