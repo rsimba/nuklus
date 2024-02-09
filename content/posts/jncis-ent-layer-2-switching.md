@@ -1,5 +1,5 @@
 +++
-title = 'JNCIS-Ent: Layer 2 Switching Primer'
+title = 'JNCIS-Ent Switching: Layer 2 Switching Primer'
 date = 2024-02-06T15:56:29+02:00
 author = 'Ricardo Simba'
 categories = 'jncis-ent'

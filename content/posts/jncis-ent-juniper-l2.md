@@ -1,5 +1,5 @@
 +++
-title = 'JNCIS-Ent: Juniper Switches and OS'
+title = 'JNCIS-Ent Switching: Juniper Switches and OS'
 date = 2024-02-09T05:33:04+02:00
 author = 'Ricardo Simba'
 categories = ['jncis-ent']
