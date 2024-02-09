@@ -1,7 +1,6 @@
 +++
 title = 'JNCIS-Ent: Juniper Switches and OS'
 date = 2024-02-09T05:33:04+02:00
-draft = true
 categories = ['jncis-ent']
 +++
 
