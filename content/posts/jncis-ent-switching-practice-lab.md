@@ -1,5 +1,5 @@
 +++
-title = 'JNCIS-Ent Switching: Switching Practice Lab'
+title = 'JNCIS-Ent: Switching Practice Lab'
 date = 2024-02-09T09:14:31+02:00
 author = 'Ricardo Simba'
 categories = ['jncis-ent']
