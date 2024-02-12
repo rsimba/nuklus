@@ -18,7 +18,7 @@ These topics are practiced and tested using Junos OS version 23.1. This is signi
 # Lab Topology
 My plan was to set up a lab where I could practice the Switching topics included in the exam using various design scenarios. The following topology accomplishes exactly that.
 
-<img src="/nuklus/content/images/jncis-ent_switching.jpg" class="align-center">
+![JNCIS-Ent Switching Lab Topology](/nuklus/content/images/jncis-ent_switching.jpg)
 
 I use EVE-NG Community Edition to emulate the topology above, and here are the hardware specifications of the host as well as the software version .
 
