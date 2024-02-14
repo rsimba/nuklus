@@ -14,7 +14,7 @@ In this lab, we'll use a basic topology to reach our objectives.
 ![Topology](/images/junos_access_ports.jpg)
 
 Our Goals:
-- Set up access ports using various methods and confirm the setup.
+- Configure access ports using various methods and verify.
 - Ensure the hosts can communicate with each other.
 
 # Configuration
