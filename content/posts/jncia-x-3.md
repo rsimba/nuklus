@@ -17,7 +17,7 @@ Juniper has made it easy to prepare for certifications through this program by o
 2. *Earn your discounted exam voucher*: Juniper includes a Voucher Assessment Test in each certification course. Completing all course modules and passing the Assessment Test qualifies you for a discount on your live exam.
 3. *Pass your live exam and you're Juniper Certified!*
 
-# Why Passing Three JNCIA Exams
+# Why Three JNCIA Exams
 The Juniper Open Learning Program has specific requirements for certain exams. For example, in order for you to subscribe to one of the Expert-level courses/Vouchers, *you must hold an active JNCIP certification in the corresponding track and have three active Associate-level, and two active Specialist-level certifications*.
 
 The above is the reason why I had to pass the following three Associate-level exams in the last two months:
