@@ -1,7 +1,7 @@
 +++
 title = 'JNCIS-Ent: Configuring Access Ports'
 date = 2024-02-12T09:54:15+02:00
-categories = ['jncis-ent']
+categories = ['jncis-ent', 'switching']
 author = 'Ricardo Simba'
 +++
 
