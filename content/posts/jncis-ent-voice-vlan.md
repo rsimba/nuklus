@@ -6,22 +6,22 @@ author = 'Ricardo Simba'
 tags = ['jncis-ent', 'switching']
 +++
 
-Many IP phones have an internal switch, often referred to as a "built-in switch" or "integrated switch." This switch allows the IP phone to act as a network switch itself, typically with two ports: one for connecting to a switch, and another for connecting a computer or other network device. This setup enables a single network drop to serve both the IP phone and an additional device, reducing the need for multiple network connections at each desk or workstation. It also helps in simplifying network infrastructure and reducing cabling requirements.
+Many IP phones come equipped with an internal switch, often called a "built-in switch" or "integrated switch." This feature allows the IP phone to function as its own network switch, typically offering two ports: one to connect to the main network switch and another for connecting a computer or another network device. This setup simplifies connectivity by enabling a single network drop to serve both the IP phone and an additional device, reducing the need for multiple network connections at each workstation and streamlining cabling requirements.
 
-A voice VLAN is a separate VLAN configured on a switch to carry voice traffic for IP Phones on a setup described on the paragraph above. This VLAN is specifically designed to prioritize and ensure the quality of voice traffic by separating voice traffic from data traffic on the network. Voice VLANs typically have higher priority settings to ensure low latency and minimal packet loss for voice data, helping to maintain call quality and reliability.
+A voice VLAN is a specialized VLAN configured on a switch to handle voice traffic from IP phones connected to the network. It separates voice traffic from data traffic, prioritizing voice data to ensure quality and reliability. Voice VLANs are configured with higher priority settings to minimize latency and packet loss, maintaining high call quality.
 
-The voice VLAN enables a single access port to accept untagged data traffic as well as tagged voice traffic and associate each type of traffic with distinct and separate VLANs. By doing this, a CoS implementation can treat voice traffic differently, generally with a higher priority than common user data traffic 
+By implementing a voice VLAN, a single access port can accept both untagged data traffic and tagged voice traffic, associating each type with its respective VLAN. This allows for differentiated treatment of voice traffic, typically with higher priority compared to regular user data traffic.
 
-In the blog post we are going to explore how to configure a voice VLAN on a Juniper switch.
+In our upcoming blog post, we will delve into the configuration process of a voice VLAN on a Juniper switch.
 
 # Lab Topology
-As shown in the topology below, we have a PC connected to an IP phone and the IP phone connects to a Juniper switch. We have to configure the voice VLAN feature to make sure both Voice and Data traffic are received in the switch ge-0/0/6 access port.
+In the given topology, there is a PC connected to an IP phone, and the IP phone is connected to a Juniper switch. To ensure that both voice and data traffic are properly received on the switch's ge-0/0/6 access port, we need to configure the voice VLAN feature.
 ![Voice VLAN Topology](/images/voice_vlan.jpg)
 
 # Configuration
-Essentially, there are two ways configure a voice VLAN on a Juniper switch. A dynamic option which uses LLDP-MED to dynamically provide the voice VLAN ID and 802.1p values to the attached IP phones; and a manual option that we are going to explore blow.
+Essentially, there are two ways to configure a voice VLAN on a Juniper switch: a dynamic option that utilizes LLDP-MED to dynamically provide the voice VLAN ID and 802.1p values to the attached IP phones, and a manual option that we will explore below.
 
-We have created two new VLANs to be used for voice and data traffic.
+We have created below two new VLANs to be used for voice and data traffic purposes.
 ```
 rsimba@acc1# show | compare
 [edit vlans]
@@ -32,7 +32,7 @@ rsimba@acc1# show | compare
 +       vlan-id 12;
 +   }
 ```
-We then configure the access port to accept the untagged data traffic:
+We then configure the access port to accept untagged data traffic.
 ```
 rsimba@acc1# show | compare
 [edit interfaces]
@@ -46,12 +46,12 @@ rsimba@acc1# show | compare
 +       }
 +   }
 ```
-There three steps to configure a voice VLAN:
-- Associate the VoIP parameters with all access ports.
-- Associate VoIP parameters with specified access port.
-- Referenced VLAN and forwarding class must be defined locally on swith.
+There are three steps to configure a voice VLAN:
+1. Associate the VoIP parameters with all access ports.
+2. Associate VoIP parameters with specified access ports.
+3. Define referenced VLAN and forwarding class locally on the switch.
 
-We configure the voice VLAN feature on the same interface under the `[edit switch-options]` hierarchy level:
+We configure the voice VLAN feature on the same interface under the `[edit switch-options]` hierarchy level.
 ```
 rsimba@acc1# show | compare
 [edit]
@@ -66,7 +66,7 @@ rsimba@acc1# show | compare
 ```
 
 ## Verification
-We can confirm below that both voice and data VLANs are configured on both access and trunk port.
+We can confirm below that both the voice and data VLANs are configured on both the access and trunk ports.
 ```
 rsimba@acc1# run show vlans
 
@@ -80,4 +80,4 @@ default-switch          voice                 12
 ```
 
 # Conclusion
-In this blog post, we have explored how to configure a voice VLAN on a Juniper switch.
+In this blog post, we learned how to set up Voice VLANs on Juniper switches. Voice VLANs help separate voice and data traffic for better quality calls. We manually created separate voice and data VLANs and linked them to access ports. This ensures that phones get both voice and data traffic smoothly. Following these steps helps network folks improve voice communication reliability on Juniper switches.
