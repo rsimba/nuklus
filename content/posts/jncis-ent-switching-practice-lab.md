@@ -2,7 +2,7 @@
 title = 'JNCIS-Ent: Switching Practice Lab'
 date = 2024-02-09T09:14:31+02:00
 author = 'Ricardo Simba'
-categories = ['jncis-ent', 'switching']
+tags = ['jncis-ent', 'switching']
 +++
 
 The Enterprise Routing and Switching Specialist (JNCIS-Ent) exam enables network professionals to *demonstrate* their competence with networking technologies in general and Juniper's routing and switching platforms. This means that besides studying the theory of different exam topics, you will also need hands-on practice Junos OS.

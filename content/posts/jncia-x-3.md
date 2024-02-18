@@ -2,6 +2,7 @@
 title = 'The 3xJNCIA Exams'
 date = 2024-01-01T09:51:05+02:00
 author = 'Ricardo Simba'
+tags = ['jncia', 'certs']
 +++
 
 ![JNCIA](/images/jncia.jpeg)

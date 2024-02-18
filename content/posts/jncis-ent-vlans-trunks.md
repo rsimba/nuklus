@@ -2,7 +2,7 @@
 title = 'JNCIS-Ent: VLANs and Trunk Ports'
 date = 2024-02-14T09:40:27+02:00
 author = 'Ricardo Simba'
-categories = ['jncis-ent', 'switching']
+tags = ['jncis-ent', 'switching']
 +++
 
 A **VLAN** is a logical network created within a physical network infrastructure. It allows devices in separate physical locations to be grouped together as if they are on the same network, even though they may be physically dispersed. A **trunk port** is a port type that allows transmission of data for multiple VLANs across a single physical link.

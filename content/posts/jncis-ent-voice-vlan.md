@@ -1,7 +1,6 @@
 +++
 title = 'JNCIS-Ent: Voice Vlan'
 date = 2024-02-17T12:21:11+02:00
-draft = true
 author = 'Ricardo Simba'
 tags = ['jncis-ent', 'switching']
 +++

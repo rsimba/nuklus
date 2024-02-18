@@ -2,7 +2,7 @@
 title = 'JNCIS-Ent: Juniper Switches and OS'
 date = 2024-02-09T05:33:04+02:00
 author = 'Ricardo Simba'
-categories = ['jncis-ent', 'switching']
+tags = ['jncis-ent', 'switching']
 +++
 
 Juniper made its debut in the world of switches back in 2008 when it introduced the EX Series switches. Since then, it has become a significant player in the networking arena. Whether you're starting out in network certification or just improving your technical skills, understanding Juniper switches and their operating system is essential. In this post, we'll explore the basics of Juniper's switch lineup and make their operating system easier to understand. So, if you're curious about how Juniper switches work, you're in the right place. Let's get started!
