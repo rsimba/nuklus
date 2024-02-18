@@ -11,7 +11,7 @@ Juniper switches utilize the **irb** interface for inter-VLAN routing, serving a
 
 # Lab Topology
 In the network topology, we need to configure Host1 to be in VLAN 10 with its gateway set to the **acc1** switch.
-![IRB Topology](/images/irg.jgp)
+![IRB Topology](/images/irb.jgp)
 
 # Configuration
 There are two main steps to configure inter-VLAN routing on Juniper switches:
