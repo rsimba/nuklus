@@ -1,5 +1,5 @@
 +++
-title = 'JNCIS-Ent: Voice Vlan'
+title = 'JNCIS-Ent: Voice VLAN'
 date = 2024-02-17T12:21:11+02:00
 author = 'Ricardo Simba'
 tags = ['jncis-ent', 'switching']
