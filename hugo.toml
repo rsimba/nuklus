@@ -1,34 +1,42 @@
-baseURL = 'https://www.nuklus.co.za'
-languageCode = 'en-us'
-title = 'Nuklus'
-theme = 'PaperMod'
+baseURL = "https://www.nuklus.co.za"
+languageCode = "en-us"
+title = "Nuklus"
+theme = "PaperMod"
 
-params:
-  homeInfoParams:
-  Title = "Nuklus"
-  Content = "Nuklus is a blog about technology"
-  socialIcons:
-  - name: twitter
-    url = https://twitter.com/rsimba
-  - name: github
-    url = https://github.com/rsimba
-  - name: linkedin
-    url = https://www.linkedin.com/in/rsimba/
+[params.homeInfoParams]
+Title = "Nuklus"
+Content = "Nuklus is a blog about technology"
 
-menu:
-  main:
-  - identifier: home
-    name = Home
-    url = /
-    weight = 20
-  - identifier: posts
-    name = Blog
-    url = /posts/
-    weight = 30
-  - identifier: about
-    name = About
-    url = /about/
-    weight = 40
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/rsimba"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/rsimba"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/rsimba/"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 20
+
+[[menu.main]]
+identifier = "posts"
+name = "Blog"
+url = "/posts/"
+weight = 30
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 40
+
 
 # Set enableKofi to true to enable the Ko-fi support button. Add your Ko-fi ID to link to your account.
 enableKofi = true
