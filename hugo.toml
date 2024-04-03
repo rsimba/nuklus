@@ -4,20 +4,17 @@ title = "Nuklus"
 theme = "PaperMod"
 
 [params.homeInfoParams]
-Title = "Nuklus"
+Title = ""The Internet is the only network that matters""
 Content = "Nuklus is a blog about technology"
 
 [[params.socialIcons]]
 name = "twitter"
-url = "https://twitter.com/rsimba"
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/rsimba"
 
 [[params.socialIcons]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/rsimba/"
 
 [[menu.main]]
 identifier = "home"
