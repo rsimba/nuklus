@@ -4,7 +4,7 @@ title = "Nuklus"
 theme = "PaperMod"
 
 [params.homeInfoParams]
-Title = ""The Internet is the only network that matters""
+Title = "The Internet is the only network that matters"
 Content = "Nuklus is a blog about technology"
 
 [[menu.main]]
