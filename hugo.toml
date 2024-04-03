@@ -7,6 +7,15 @@ theme = "PaperMod"
 Title = "The Internet is the only network that matters"
 Content = "Nuklus is a blog about technology"
 
+[[params.socialIcons]]
+name = "twitter"
+
+[[params.socialIcons]]
+name = "github"
+
+[[params.socialIcons]]
+name = "linkedin"
+
 [[menu.main]]
 identifier = "home"
 name = "Home"
