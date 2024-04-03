@@ -1,4 +1,4 @@
-baseURL = "https://www.nuklus.co.za"
+baseURL = "https://www.nuklus.co.za/"
 languageCode = "en-us"
 title = "Nuklus"
 theme = "PaperMod"
@@ -7,34 +7,21 @@ theme = "PaperMod"
 Title = ""The Internet is the only network that matters""
 Content = "Nuklus is a blog about technology"
 
-[[params.socialIcons]]
-name = "twitter"
-
-[[params.socialIcons]]
-name = "github"
-
-[[params.socialIcons]]
-name = "linkedin"
-
 [[menu.main]]
 identifier = "home"
 name = "Home"
 url = "/"
-weight = 20
+weight = 10
 
 [[menu.main]]
 identifier = "posts"
 name = "Blog"
 url = "/posts/"
-weight = 30
+weight = 20
 
 [[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
-weight = 40
+weight = 30
 
-
-# Set enableKofi to true to enable the Ko-fi support button. Add your Ko-fi ID to link to your account.
-enableKofi = true
-kofi = "rsimba"
