@@ -5,7 +5,7 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
 Title = "The Internet is the only network that matters"
-Content = "Nuklus is a blog about technology"
+Content = "In the words of Dave Schaeffer, CEO of Cogent Communications, the "Internet is the only network that matters.""
 
 [[params.socialIcons]]
 name = "twitter"
