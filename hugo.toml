@@ -5,7 +5,7 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
 Title = "The Internet is the only network that matters"
-Content = "In the words of Dave Schaeffer, CEO of Cogent Communications, the "Internet is the only network that matters.""
+Content = "In the words of Dave Schaeffer, CEO of Cogent Communications, the Internet is the only network that matters."
 
 [[params.socialIcons]]
 name = "twitter"
