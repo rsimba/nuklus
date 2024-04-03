@@ -5,30 +5,30 @@ theme = 'PaperMod'
 
 params:
   homeInfoParams:
-  Title: "Nuklus"
-  Content: "Nuklus is a blog about technology"
+  Title = "Nuklus"
+  Content = "Nuklus is a blog about technology"
   socialIcons:
   - name: twitter
-    url: https://twitter.com/rsimba
+    url = https://twitter.com/rsimba
   - name: github
-    url: https://github.com/rsimba
+    url = https://github.com/rsimba
   - name: linkedin
-    url: https://www.linkedin.com/in/rsimba/
+    url = https://www.linkedin.com/in/rsimba/
 
 menu:
   main:
   - identifier: home
-    name: Home
-    url: /
-    weight: 20
+    name = Home
+    url = /
+    weight = 20
   - identifier: posts
-    name: Blog
-    url: /posts/
-    weight: 30
+    name = Blog
+    url = /posts/
+    weight = 30
   - identifier: about
-    name: About
-    url: /about/
-    weight: 40
+    name = About
+    url = /about/
+    weight = 40
 
 # Set enableKofi to true to enable the Ko-fi support button. Add your Ko-fi ID to link to your account.
 enableKofi = true
