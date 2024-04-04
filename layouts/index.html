@@ -1,25 +1,31 @@
 {{- define "main" }} 
-    {{- $pages := union .RegularPages .Sections }} 
+    {{- $pages := where .Site.RegularPages "Type" "post" }} 
     {{- $paginator := .Paginate $pages }} 
 
     {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }} 
     {{- partial "home_info.html" . }} 
     {{- end }}
 
-    <div class="projects-section">
-        <h2>Projects</h2>
-        <div class="portfolio-projects">
-            <div class="project">
-                <div class="project-header">
-                    <i class="fa-regular fa-folder-open folder-icon"></i>
-                    <div class="small-icons">
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+    <div class="blog-categories">
+        {{- range .Site.Taxonomies.categories.Alphabetical }}
+            <h2>{{ .Name }}</h2>
+            <div class="portfolio-projects">
+                {{- $category := .Name }}
+                {{- range where .Pages "Params.categories" "intersect" (slice $category) }}
+                    <div class="project">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open folder-icon"></i>
+                            <div class="small-icons">
+                                <a href="{{ .Permalink }}"><i class="fa-brands fa-github"></i></a>
+                                <a href="{{ .Permalink }}"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <h3>{{ .Title }}</h3>
+                        <p>{{ .Summary }}</p>
                     </div>
-                </div>
-                <h3>Project Title</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed saepe adipisci nostrum. Voluptatem tempore porro deserunt cupiditate. Dolores sequi, eveniet enim amet sapiente voluptatibus, libero, impedit tempora ullam alias iure?</p>
+                {{- end }}
             </div>
-        </div>
+        {{- end }}
     </div>
 {{- end }}
+
