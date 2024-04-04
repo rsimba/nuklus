@@ -5,7 +5,7 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
 Title = "Welcome to Nuklus!"
-Content = "This is a blog about mentorship"
+Content = "This is a work in progress blog"
 
 [[params.socialIcons]]
 name = "twitter"
