@@ -5,7 +5,7 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
 Title = "Welcome to Nuklus!"
-Content = "Everything Telco, Carrier, Service Provider, and ISP related."
+Content = "Everything Telco, Carrier, Service Provider, and ISP related topics."
 
 [[params.socialIcons]]
 name = "twitter"
