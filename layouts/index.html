@@ -8,20 +8,10 @@
 
     <div class="blog-categories">
         {{- range .Site.Taxonomies.categories.Alphabetical }}
-            <h2>{{ .Name }}</h2>
-            <div class="portfolio-projects">
-                {{- $category := .Name }}
-                {{- range where .Pages "Params.categories" "intersect" (slice $category) }}
-                    <div class="project">
-                        <div class="project-header">
-                            <div class="small-icons">
-                                <a href="{{ .Permalink }}"><i class="fa-solid fa-up-right-from-square"></i></a>
-                            </div>
-                        </div>
-                        <h3>{{ .Title }}</h3>
-                        <p>{{ .Summary }}</p>
-                    </div>
-                {{- end }}
+            <div class="category-card">
+                <a href="{{ "/categories/" | relLangURL}}{{ . | urlize }}">
+                    <h2>{{ . }}</h2>
+                </a>
             </div>
         {{- end }}
     </div>
